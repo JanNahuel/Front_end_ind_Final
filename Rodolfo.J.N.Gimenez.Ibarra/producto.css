@@ -1,0 +1,91 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el body */
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #75b89e;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #4b8769;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #336699;
+}
+
+/* Estilo para las imágenes de los productos */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estilo para los títulos de productos */
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Estilo para los precios */
+h3 {
+    color: #75b89e;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Estilo para la lista de características */
+ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Agregar un poco de espacio entre cada producto */
+p {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,114 @@
+/* Estilo general */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    background-color: #f4f4f9; /* Color de fondo suave */
+    display: flex;
+    justify-content: flex-start; /* Alineación del contenido al principio */
+    align-items: flex-start; /* Alineación del contenido al principio */
+    flex-direction: column; /* Disposición vertical */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    padding: 10px 20px; /* Reduce el padding para que el contenido quede más arriba */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px; /* Da un pequeño espacio entre el contenido y la parte superior */
+}
+
+/* Título principal */
+h1 {
+    color: rgb(22, 100, 81);
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Títulos secundarios */
+h2 {
+    color: rgb(75, 189, 155);
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Párrafos con listas */
+p ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+p ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Estilo de enlaces */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Estilo del header */
+header {
+    background-color: #75b89e;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Agrega un margen inferior para separar el header del resto del contenido */
+    width: 100%;
+}
+
+/* Título dentro del header */
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #4b8769;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #336699;
+}
